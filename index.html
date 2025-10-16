@@ -53,7 +53,7 @@
   <footer>Powered by Horoscope API</footer>
 
   <script>
-    const API_URL = "https://horoscope-api1.vercel.app/api/horoscope";
+const API_URL = "https://corsproxy.io/?" + encodeURIComponent("https://horoscope-api1.vercel.app/api/horoscope");
     const container = document.getElementById("container");
 
     async function loadHoroscope() {
